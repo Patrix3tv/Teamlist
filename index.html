@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erkunde – Teams</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Erkunde – Teams</h1>
+    <div class="controls">
+      <input type="text" placeholder="Suchen">
+      <select>
+        <option>Kürzlich gebumpt</option>
+        <option>Beliebt</option>
+        <option>Neu</option>
+      </select>
+      <select>
+        <option>Alle</option>
+        <option>Schrotttonne 2</option>
+        <option>Clash of Clans</option>
+      </select>
+    </div>
+  </header>
+
+  <section class="info warning">
+    <h3>⚠️ Warning</h3>
+    <p>Teams werden nicht von dieser Seite moderiert. Bitte meldet die Teams, wenn sie sich schlecht benehmen.</p>
+  </section>
+
+  <section class="info blue">
+    <h3>ℹ️ Info</h3>
+    <p>Ein Server kann bald alle 3 Stunden einmal gebumpt werden. Alle Bumps werden am Montag um 0:00 UTC zurückgesetzt.</p>
+  </section>
+
+  <h2>Gepinnte Server</h2>
+  <div id="pinned" class="server-list"></div>
+
+  <h2>Kürzlich gebumpte Server</h2>
+  <div id="recent" class="server-list"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
