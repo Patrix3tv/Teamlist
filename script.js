@@ -1,5 +1,5 @@
 async function loadServers() {
-  const response = await fetch('servers.json');
+  const response = await fetch('teams.json');
   const servers = await response.json();
 
   const pinnedContainer = document.getElementById('pinned');
