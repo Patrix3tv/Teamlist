@@ -5,7 +5,7 @@
     "description": "helpful.",
     "members": 15,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "gepinnte"
   },
   {
@@ -14,7 +14,7 @@
     "description": "German Team.",
     "members": 50,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "recent"
   },
   {
@@ -23,16 +23,16 @@
     "description": "Trying a new team.",
     "members": 50,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "recent"
   },
   {
     "name": "UltraMergers DE",
     "owner": "Bolle",
-    "description": "Everyone is welcome   Have fun :)",
+    "description": "Everyone is welcome Have fun :)",
     "members": 5,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "recent"
   },
   {
@@ -41,16 +41,16 @@
     "description": "Very active!",
     "members": 27,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "recent"
   },
   {
     "name": "Schrotttopia",
     "owner": "Rockchick",
-    "description": "moin moin:) 5k \\ Woche = sicher! 20k \\ Woche = Ältester! Helft euch und habt Spaß!:))",
+    "description": "moin moin:) Helft euch und habt Spaß!:)",
     "members": 12,
     "bumped": "unknown",
-    "banner": "soon.jpg",
+    "banner": "pic/soon.jpg",
     "type": "recent"
   }
 ]
