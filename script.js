@@ -1,26 +1,26 @@
-async function loadServers() {
+async function loadTeams() {
   const response = await fetch('teams.json');
   const servers = await response.json();
 
   const pinnedContainer = document.getElementById('pinned');
   const recentContainer = document.getElementById('recent');
 
-  servers.forEach(server => {
+  teams.forEach(team => {
     const card = document.createElement('div');
     card.className = 'server-card';
     card.innerHTML = `
-      <img src="${server.banner}" alt="${server.name}">
+      <img src="${team.banner}" alt="${team.name}">
       <div class="server-content">
-        <h3>${server.name}</h3>
-        <p>Von: ${server.owner}<br>${server.description}</p>
-        <span>${server.members} Mitglieder • Gebumpt ${server.bumped}</span>
+        <h3>${team.name}</h3>
+        <p>Von: ${team.owner}<br>${server.description}</p>
+        <span>${team.members} Mitglieder • Gebumpt ${team.bumped}</span>
         <div class="buttons">
           <button class="visit">Beitreten</button>
           <button class="bump">Bumpen</button>
         </div>
       </div>
     `;
-    if (server.type === 'gepinnte') pinnedContainer.appendChild(card);
+    if (team.type === 'gepinnte') pinnedContainer.appendChild(card);
     else recentContainer.appendChild(card);
   });
 }
